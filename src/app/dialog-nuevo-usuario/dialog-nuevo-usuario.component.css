@@ -1,0 +1,52 @@
+.boton-negro {
+    background-color: white;
+    color: white;
+    border: none;
+    padding: 8px 16px;
+    font-weight: 500;
+    text-transform: none;
+    box-shadow: none;
+    transition: background-color 0.3s ease;
+    font-family: 'Segoe UI', sans-serif;
+  }
+  
+  .boton-negro:hover {
+    background-color: #333;
+    color: white;
+    font-family: 'Segoe UI', sans-serif;
+  }
+  .dialog-contenedor {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100%;
+  }
+
+  .formulario {
+    width: 100%;
+    max-width: 400px;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+  }
+
+  .dialog-content {
+    width: 100%;
+    text-align: center;
+    background-color: #f8f9fa; /* Color de fondo claro */
+    border-radius: 5px; /* Bordes redondeados */
+    padding: 20px; /* Espaciado interno */
+    
+  }
+
+  .hover-effect {
+    transition: all 0.3s ease; /* Suaviza la transición */
+    border: 1px solid #ccc; /* Borde inicial */
+    border-radius: 4px; /* Bordes redondeados */
+  }
+  
+  /* Efecto hover */
+  .hover-effect:hover {
+    border-color: #3f51b5; /* Cambia el color del borde al pasar el cursor */
+    box-shadow: 0 0 5px rgba(63, 81, 181, 0.5); /* Agrega un efecto de sombra */
+  }
